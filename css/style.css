@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    color: rgb(62, 23, 1);
+    line-height: 35px;
+    background-color: rgb(255, 249, 228);
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.body--dark {
+    color: rgb(222, 222, 222);
+    background-color: rgb(26, 25, 23);
+}
+
+.header {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(62, 23, 1);
+    font-weight: bolder;
+    background-color: rgb(228 185 41);
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -4px #1E1A1A;
+}
+
+.main {
+    margin: 75px 0px 100px 0px;
+}

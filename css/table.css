@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__caption {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.table__cell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.table__cell--header {
+    color: rgb(62, 23, 1);
+    background-color: rgb(236, 203, 93);
+    font-weight: normal;
+}

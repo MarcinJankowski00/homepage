@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body js-body">
+    <header class="header">
+        <h1>Marcin Jankowski</h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li>
+                <a class="navigation__link" href="#Podstawoweinformacje">Podstawowe informacje</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#Wyksztalcenie">Wykształcenie</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#Zainteresowania">Zainteresowania</a>
+            </li>
+        </ul>
+        <button class="navigation__modeswitcher js-navigation__modeswitcher">Włącz <span
+                class="js-themeName">ciemny</span>
+            motyw</button>
+    </nav>
+    <main class="main">
+        <section id="Podstawoweinformacje" class="section">
+            <h2 class="section__header">Podstawowe informacje</h2>
+            <img class="section__photo js-section__photo" width="200" height="230"
+                src="https://i.postimg.cc/DfB5dyNV/zdj-cietwarzy.jpg" alt="Marcin Jankowski">
+            <button class="section__button js-section__button">Usuń zdjęcie</button>
+            <p>Nazywam się <b>Marcin Jankowski</b>.
+                <br>
+                Mam 22 lata, mieszkam w Knyszynie, małej miejscowości na
+                Podlasiu.
+                Mam
+                dwie siostry. Lubię zwierzęta. Posiadam kota o imieniu Gucio.
+            </p>
+        </section>
+        <section id="Wyksztalcenie" class="section">
+            <h2 class="section__header">Wykształcenie</h2>
+            <p>Ukończyłem szkołę podstawową i gimnazjum w Knyszynie. Następnie ukończyłem liceum w Białymstoku
+                na profilu
+                <em>mat-fiz-inf</em>. Aktualnie studiuje <em>Ekonomie</em> na Uniwersytecie w Białymstoku, oraz
+                uczęstniczę
+                w
+                kursie <i>Frontend developer</i> ;)
+            </p>
+        </section>
+        <section id="Zainteresowania" class="section">
+            <h2 class="section__header">Zainteresowania</h2>
+            <p>Moimi pierwszym hobby jest siłownia. Ćwiczę pare razy w tygodniu w domowej siłowni, w piwnicy.
+                Kolejnym hobby
+                jest służba w
+                wojsku. Jestem żołnierzem TSW. Raz w miesiącu jeżdżę na weekend szkoleniowy. W wolnym czasie lubię
+                pograć w
+                gry, obejrzeć dobry film lub serial.</p>
+            <div class="section__tableContainer">
+                <table class="table">
+                    <caption class="table__caption">Moje ulubione gry komputerowe</caption>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                        <th class="table__cell table__cell--header" scope="col">Producent</th>
+                        <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">Wiedźmin 3: Dziki Gon</th>
+                        <td class="table__cell">CD Projekt Red</td>
+                        <td class="table__cell">2015</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">Red Dead Redemption 2</th>
+                        <td class="table__cell">Rockstar Games</td>
+                        <td class="table__cell">2018</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">Elden Ring</th>
+                        <td class="table__cell">FromSoftware</td>
+                        <td class="table__cell">2022</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p><strong>Copyright 2022 by Marcin Jankowski- wszystkie prawa zastrzeżone</strong></p>
+    </footer>
+
+</body>
+
+</html>
