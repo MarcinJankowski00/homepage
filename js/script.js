@@ -1,12 +1,11 @@
-console.log("Witaj świecie");
+{
+    const modeswitcher = document.querySelector(".js-navigation__modeswitcher");
 
-/* Button- switches website mode */
-let modeswitcher = document.querySelector(".js-navigation__modeswitcher");
-let body = document.querySelector(".js-body");
-let themeName = document.querySelector(".js-themeName");
+    modeswitcher.addEventListener("click", () => {
+        const body = document.querySelector(".js-body");
+        const themeName = document.querySelector(".js-themeName");
+        body.classList.toggle("body--dark");
 
-modeswitcher.addEventListener("click", () => {
-    body.classList.toggle("body--dark");
-
-    themeName.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
-});
+        themeName.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
+    });
+}
