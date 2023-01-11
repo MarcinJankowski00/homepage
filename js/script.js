@@ -6,10 +6,11 @@
 
         themeName.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
     };
+
     const init = () => {
         const modeswitcher = document.querySelector(".js-navigation__modeswitcher");
         modeswitcher.addEventListener("click", onButtonClick)
-    } 
+    };
 
     init()
 }
