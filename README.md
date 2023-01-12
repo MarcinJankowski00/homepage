@@ -3,6 +3,8 @@
 ## Demo
 https://marcinjankowski00.github.io/homepage/
 
+![Website preview](https://raw.githubusercontent.com/MarcinJankowski00/homepage/main/images/homepage_preview.png)
+
 ## Description
 A website that contains information about me in polish language. I describe my basic data, education, interests and hobbies. 
 
