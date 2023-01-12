@@ -9,7 +9,7 @@
 
     const init = () => {
         const modeswitcher = document.querySelector(".js-navigation__modeswitcher");
-        modeswitcher.addEventListener("click", onButtonClick)
+        modeswitcher.addEventListener("click", onButtonClick);
     };
 
     init()
