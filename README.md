@@ -16,5 +16,9 @@ To change to a dark theme, press the button that says "Włącz ciemny motyw".
 If you want to switch back to the light theme, click the same button that now says "Włącz jasny motyw".
 
 ### Included conventions:
+- JavaScript
+- CSS
+- HTML
+- CamelCase naming convention
 - BEM naming convention
 
