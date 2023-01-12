@@ -17,7 +17,9 @@ html {
 }
 
 .table__cell {
-    border: 1px solid #ccc;
+    color: rgb(62, 23, 1);
+    border: 1px solid #818181;
+    background-color: #fff0cf;
     padding: 20px;
     text-align: center;
 }
